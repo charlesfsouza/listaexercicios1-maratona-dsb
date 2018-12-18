@@ -11,7 +11,13 @@ x = int(input())
 y = int(input())
 print(x+y)
 
-# Faça um Programa que peça as 4 notas bimestrais e mostre a média
+# 04 Faça um Programa que peça as 4 notas bimestrais e mostre a média
 notas = [int(input()) for x in range(4)]
 media = sum(notas)/len(notas)
 print(media)
+
+# 05 Faça um Programa que converta metros para centímetros.
+metros = float(input())
+centimetros = metros * 100
+print (metros, " metro(s) equivale(m) a ",centimetros, " centimetro(s)")
+
