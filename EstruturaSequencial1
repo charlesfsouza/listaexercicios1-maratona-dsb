@@ -1,3 +1,17 @@
-# Faça um Programa que mostre a mensagem "Alo mundo" na tela.
+# 01 Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
 print ("Alo mundo")
+
+# 02 Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
+
+print("O número informado foi ",input())
+
+# 03 Faça um Programa que peça dois números e imprima a soma.
+x = int(input())
+y = int(input())
+print(x+y)
+
+# Faça um Programa que peça as 4 notas bimestrais e mostre a média
+notas = [int(input()) for x in range(4)]
+media = sum(notas)/len(notas)
+print(media)
