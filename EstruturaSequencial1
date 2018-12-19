@@ -21,3 +21,62 @@ metros = float(input())
 centimetros = metros * 100
 print (metros, " metro(s) equivale(m) a ",centimetros, " centimetro(s)")
 
+#06 Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+from math import pi
+print("Informe o raio do circulo")
+raio = float(input())
+area = pi*(raio**2)
+print ('{:.2f}'.format(area))
+
+#07 Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+lado = float(input())
+area = lado**2
+dobro_area = area*2
+print(dobro_area)
+
+#08 Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.
+# Calcule e mostre o total do seu salário no referido mês.
+
+#Entradas
+print("Informe o valor/hora: ",end="")
+vlr_hora = float(input())
+print("Informe o total de horas trabalhadas no mês: ",end="")
+horas = float(input())
+
+#Processamento
+vlr_mes = vlr_hora*horas
+
+#Saídas
+print('O valor totao do seu salário é R$ {:.2f}'.format(vlr_mes))
+
+#09 Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius.
+#C = (5 * (F-32) / 9).
+
+#Entradas
+print("Informe a temperatura em graus Farenheit: ",end="")
+F = float(input())
+
+#Processamento
+C = (5 * (F-32) / 9)
+
+#Saídas
+print('{:.0f}'.format(F),'Farenheit equivalem a {:.0f}'.format(C), ' em graus Celsius')
+
+
+#09 Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit..
+
+#Entradas
+print("Informe a temperatura em graus Celsius: ",end="")
+C = float(input())
+
+#Processamento
+F = C * 9 / 5 + 32
+
+
+#Saídas
+print('{:.0f}'.format(C),'Celsius equivalem a {:.0f}'.format(F), ' em graus Farenheit')
+
+
+
+
+
